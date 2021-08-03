@@ -1,0 +1,16 @@
+{
+  "name": "barebone-tailwindcss-setup",
+  "version": "0.0.1",
+  "description": "Extremely basic tailwind configuration setup.",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/precompiled.css -o ./public/css/compiled.css",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "Psibean",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
